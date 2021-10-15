@@ -1,8 +1,10 @@
 Ball[] balls;
 Ball specialBall;
+
 color infectedColour;
 int score,x;
 Timer startTimer;
+
 
 
 void setup()
@@ -54,6 +56,5 @@ void draw()
 
   stroke(150);
   text(startTimer.getTime(), 10, 20);
-  
-  
+    
 }
